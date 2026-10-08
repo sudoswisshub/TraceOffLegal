@@ -14,21 +14,22 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Effective date: September 7, 2026</p>
+  <p class="updated">Effective date: October 9, 2026</p>
 
   <div class="card">
     <p><strong>Short version:</strong> TraceOff removes metadata from photos and videos entirely on your device. Your files are never uploaded anywhere, we don't run any servers that see your media, and we don't collect personal data.</p>
   </div>
 
   <h2>1. What TraceOff does with your files</h2>
-  <p>TraceOff reads and edits image and video files that you choose to open in the app — through the Photos picker, Files, the share sheet, paste, drag and drop, or Shortcuts. All processing happens locally on your device using Apple's system frameworks. Your photos and videos are never transmitted to us, uploaded to a server, or shared with any third party as part of using the app.</p>
+  <p>TraceOff reads and edits image, video, audio and PDF files that you choose to open in the app — through the Photos picker, Files, the share sheet, paste, drag and drop, or Shortcuts. All processing happens locally on your device using Apple's system frameworks. Your photos and videos are never transmitted to us, uploaded to a server, or shared with any third party as part of using the app.</p>
 
   <h2>2. Information we collect</h2>
   <p>We do not collect, store, or have access to:</p>
   <ul>
     <li>Your photos, videos, or any metadata extracted from them</li>
     <li>Your name, email address, or contact information (unless you email us directly for support)</li>
-    <li>Location data, contacts, or other personal data on your device</li>
+    <li>Your location, including the location stored in your files and, if you use "Use My Location", where your device is. Both stay on your device (see section 4)</li>
+    <li>Contacts or other personal data on your device</li>
     <li>An account or profile of any kind — TraceOff does not require sign-in</li>
   </ul>
   <p>TraceOff does not use analytics SDKs, advertising SDKs, or third-party trackers.</p>
@@ -37,7 +38,9 @@
   <p>TraceOff Pro is offered as an auto-renewable subscription or a one-time purchase through Apple's App Store using StoreKit. Payment information is handled entirely by Apple; we never see or store your payment details. Apple may share limited, non-identifying transaction information with us (such as purchase status) solely to unlock Pro features on your device. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a> for how Apple handles this data.</p>
 
   <h2>4. Permissions</h2>
-  <p>TraceOff may request access to your Photos library to let you pick and save images and videos. This access is used only to import files you choose and to save cleaned copies back — never to scan or upload your library.</p>
+  <p><strong>Photos.</strong> TraceOff may request access to your Photos library to let you pick and save photos and videos, to replace an original with its cleaned copy when you ask it to, and to run the optional library audit. The audit reads the metadata of items in your library on your device to count how many carry a location or an AI label. Nothing from your library is uploaded, and the results never leave your device.</p>
+  <p><strong>Location.</strong> TraceOff asks for your device's location only if you tap "Use My Location" in the metadata editor, to write that position into the file you are editing. The permission is "while using the app", the position is read once, and it is not stored or sent to us.</p>
+  <p><strong>Maps.</strong> When you search for a place or view or pick a location on a map, the place name or coordinates involved are sent to Apple's mapping services to return map tiles, search results and place names. This is handled by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>, not by us, and we do not receive it.</p>
 
   <h2>5. Data retention</h2>
   <p>Because nothing you process leaves your device, there is no server-side retention. Cleaned files are saved wherever you direct them (Photos, Files, clipboard, or share sheet) and are otherwise not retained by the app once you close it, aside from temporary working copies needed to perform the clean.</p>
