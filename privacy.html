@@ -14,7 +14,7 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Effective date: October 9, 2026</p>
+  <p class="updated">Effective date: October 14, 2026</p>
 
   <div class="card">
     <p><strong>Short version:</strong> TraceOff removes metadata from your files entirely on your device. Your files are never uploaded anywhere, we don't run any servers that see your media, and we don't collect personal data.</p>
@@ -39,11 +39,14 @@
 
   <h2>4. Permissions</h2>
   <p><strong>Photos.</strong> TraceOff may request access to your Photos library to let you pick and save photos and videos, to replace an original with its cleaned copy when you ask it to, and to run the optional library audit. The audit reads the metadata of items in your library on your device to count how many carry a location or an AI label. Nothing from your library is uploaded, and the results never leave your device.</p>
+  <p><strong>iCloud Photos.</strong> If a photo or video you pick is stored in iCloud Photos and its original is not on your device yet, iOS downloads that original from Apple so TraceOff can read it. The download is made by Apple's Photos framework, under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>; nothing is sent to us.</p>
+  <p><strong>Replacing an original.</strong> "Save &amp; Delete Original" saves the cleaned copy to your library and then asks iOS to delete the original, which iOS asks you to confirm. The original goes to Recently Deleted in Photos, where it stays for 30 days.</p>
+  <p><strong>Clipboard.</strong> TraceOff reads the clipboard only when you paste into it or run Clean Clipboard, and writes to it only when you copy a cleaned file.</p>
   <p><strong>Location.</strong> TraceOff asks for your device's location only if you tap "Use My Location" in the metadata editor, to write that position into the file you are editing. The permission is "while using the app", the position is read once, and it is not stored or sent to us.</p>
   <p><strong>Maps.</strong> When you search for a place or view or pick a location on a map, the place name or coordinates involved are sent to Apple's mapping services to return map tiles, search results and place names. This is handled by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>, not by us, and we do not receive it.</p>
 
   <h2>5. Data retention</h2>
-  <p>Because nothing you process leaves your device, there is no server-side retention. Cleaned files are saved wherever you direct them (Photos, Files, clipboard, or share sheet) and are otherwise not retained by the app once you close it, aside from temporary working copies needed to perform the clean.</p>
+  <p>Nothing you process leaves your device, so there is no server-side retention. On your device, TraceOff keeps your recent batches — a copy of each file and its cleaned copy, with the findings report — in the app's own private storage, so that you can still save or share them later. It keeps at most 20 batches, and each is removed after 30 days or as soon as you delete it in the app. Your settings, presets and the day's free-clean count are also stored on your device. Deleting the app removes all of it.</p>
 
   <h2>6. Children's privacy</h2>
   <p>TraceOff is not directed at children under 13, and we do not knowingly collect personal information from anyone.</p>
