@@ -14,7 +14,7 @@
   </header>
 
   <h1>Support</h1>
-  <p class="updated">TraceOff: EXIF &amp; GPS Remover</p>
+  <p class="updated">TraceOff: AI Metadata Remover</p>
 
   <div class="card">
     <p>Need help, found a bug, or have a feature request? Email us at<br>
@@ -28,6 +28,9 @@
 
   <h2>What's the difference between "AI provenance only" and "All metadata"?</h2>
   <p><strong>AI provenance only</strong> strips C2PA Content Credentials, AI-generator tags, and similar provenance markers while keeping camera EXIF, orientation, and color profiles intact. <strong>All metadata</strong> additionally removes EXIF, XMP, IPTC, comments, and other embedded metadata. Choose the mode from within the app before cleaning a file.</p>
+
+  <h2>What does removing AI labels do, and when should I use it?</h2>
+  <p>AI tools and some editors write labels into a file: C2PA Content Credentials, an IPTC “Made with AI” or digital source type, or the generator’s name. TraceOff can remove those labels from the file’s metadata. People use it when a real photo was tagged “Made with AI” after a small edit, or when they don’t want the software they used attached to a file they share. It never changes the picture itself, it does not remove visible or invisible watermarks such as SynthID, and it cannot change anything a platform has already recorded. Use it only on content you own or may edit; some platforms and jurisdictions require AI disclosures to stay in place, and following them is up to you (see our <a href="terms.html">Terms of Service</a>). TraceOff is not offered in mainland China, where removing these labels is restricted.</p>
 
   <h2>Will cleaning a file reduce its quality?</h2>
   <p>No. TraceOff copies image, video and audio data verbatim — it only rewrites or blanks metadata containers, so there's no re-encoding and no quality loss. The exceptions are BMP images, which have to be re-encoded, and the optional face and text blur, which re-encodes the picture it is applied to.</p>
